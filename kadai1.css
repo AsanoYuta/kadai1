@@ -58,6 +58,7 @@ footer{
       flex-direction: column;
       width: 90%;
       margin: 50 auto;
+      padding 10px;
       position: center;
   }
    
