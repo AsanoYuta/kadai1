@@ -52,17 +52,34 @@ footer{
   background-color: #aaaaaa;
 }
 @media screen and (max-width: 768px) {
-  
-  main{
+    main{
       display: flex;
       flex-direction: column;
       width: 100%;
-      margin: 50 auto;
-      position: center;
+      margin: 50px auto; 
+      overflow-x: hidden;  
   }
-  boxes{
-    width: 90%;
-    margin bottom: 10px ;
-    position: center;
- 
+ .boxes{
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
+ .boxes:last-child{
+  margin: 0 auto;
+  }
+ .img1{
+  height: 150px;
+  margin: 10 10 10 10;
+}
+.img2{
+  height: 150px;
+  margin: 10 10 10 10;
+}
+.img3{
+  height: 150px;
+  margin: 10 10 10 10;
+}
+
+}
+
+  
